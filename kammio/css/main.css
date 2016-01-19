@@ -1,0 +1,125 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+a, input:focus{
+	outline: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #14DDE1;
+	background-image: url(../img/opensoon.png);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.news{
+	min-height: 65px;
+	max-height: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	display: inline-block;
+	position: absolute;
+	left: 100px;
+	top: 90%;
+	border: 5px solid #35FFEE;
+	border-top: 10px solid #35FFEE;
+	border-radius: 5px;
+	background-color: #35FFEE;
+	opacity: 0;
+}
+.text{
+	display: block;
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: 600;
+	color: #14DDE1;
+	position: relative;
+	bottom: 6px;
+}
+.email{
+	display: inline-block;
+	width: 250px;
+	height: 35px;
+	font-family: monospace;
+	font-size: 16px;
+	border: 2px solid #10B4B7;
+	border-radius: 5px;
+	background-color: #10B4B7;
+	color: black;
+	
+}
+.btn{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	font-family: monospace;
+	font-size: 16px;
+	border: 2px solid #064647;
+	border-radius: 15px;
+	background-color: #064647;
+	color: white;
+	
+}
+.answer{
+	font-family: monospace;
+	font-size: 16px;
+	color: crimson;
+}
+/*AUTOR*/
+.autor{
+	margin: 0 auto;
+	padding: 0 auto;
+	display: inline-block;
+	position: absolute;
+	right: 100px;
+	top: 10%;
+}
+.autor_hr{
+	border: none;
+	height: 4px;
+	background-color: black;
+}
+.ru, .eng{
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: 600;
+}
+.ru>p>a, .eng>p>a{
+	color: white;
+}
+.ru>p>a:hover, .eng>p>a:hover,
+.ru>p>a:focus, .eng>p>a:focus{
+	color: #FFC51F;
+}
+.zipper{
+	margin: 0 auto;
+	padding: 0 auto;
+	display: inline-block;
+	position: absolute;
+	right: 200px;
+	top: 30%;
+}
+#zip{
+	color: white;
+	background-color: #14dde1;
+	text-decoration: line-through;
+	font-family: monospace;
+	font-size: 26px;
+	border: 2px solid #14dde1;
+}
+#zip:hover{
+	border: 2px solid #00b3c4;
+}
+#zip:focus{
+	color: #F91111;
+}
+.ziplr{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #f91111;
+	z-index: 101;
+}
